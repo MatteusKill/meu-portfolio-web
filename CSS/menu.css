@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    background-color: var(--var-cor-superficie-cards);
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
