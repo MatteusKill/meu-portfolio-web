@@ -4,6 +4,7 @@
 
 /* IMPORTANDO CSS */
 @import url('menu.css');
+@import url('sobre.css');
 
 
 /* PALETA DE CORES */
@@ -31,11 +32,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'space-grotesk';
 }
-
-*{
+body{
+    background-color: var(--var-cor-fundo-principal);
+}
+h1{
+    color: var(--var-cor-texto-principal);
+    font-family: 'space-grotesk', 'sans-serif';
+}
+p{
+    color: var(--var-cor-texto-secundario);
+    font-family: 'poppins';
+}
+a{
     text-decoration: none;
+    color: var(--var-cor-texto-secundario)
 }
 
 li{
