@@ -5,7 +5,6 @@ main{
    justify-content: center;
 }
 .titulo-principal{
-    width: 20%;
     font-size: 30px;
     margin-left: 10%;
     margin-top: 3%;
@@ -21,7 +20,7 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
-    border-left: 2px solid #334155;
+    border-left: 2px solid var(--var-cor-borda-divisor);
     padding-left: 5px;
 }
 .descricao{

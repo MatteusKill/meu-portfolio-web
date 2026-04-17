@@ -6,6 +6,9 @@
 @import url('menu.css');
 @import url('sobre.css');
 @import url('formacao.css');
+@import url('habilidades.css');
+@import url('projetos.css');
+@import url('footer.css');
 
 
 /* PALETA DE CORES */
@@ -39,11 +42,11 @@ body{
 }
 h1{
     color: var(--var-cor-texto-principal);
-    font-family: 'space-grotesk', 'sans-serif';
+    font-family: 'Space Grotesk', 'sans-serif';
 }
 p{
     color: var(--var-cor-texto-secundario);
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }
 a{
     text-decoration: none;
@@ -52,4 +55,7 @@ a{
 
 li{
     list-style: none;
+}
+i{
+    color: var(--var-cor-acento-principal);
 }

@@ -1,0 +1,51 @@
+.habilidades {
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-secao {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: var(--var-cor-texto-principal);
+}
+
+.topico-secao {
+    color: var(--var-cor-texto-secundario);
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-habilidade {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--var-cor-superficie-cards);
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid var(--var-cor-borda-divisor);
+    min-width: 200px;
+}
+
+.card-habilidade i {
+    font-size: 24px;
+    color: var(--var-cor-acento-principal);
+}
+
+.texto-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-card {
+    color: var(--var-cor-texto-principal);
+    font-weight: bold;
+}

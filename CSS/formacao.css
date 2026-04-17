@@ -5,6 +5,7 @@
 .titulo-secao {
     font-size: 32px;
     margin-bottom: 40px;
+    color: var(--var-cor-texto-principal);
 }
 
 .timeline {
@@ -19,7 +20,7 @@
     top: 0;
     width: 2px;
     height: 100%;
-    background-color: #ccc;
+    background-color: var(--var-cor-borda-divisor);
 }
 
 .timeline-item {
@@ -33,17 +34,20 @@
     top: 5px;
     width: 12px;
     height: 12px;
-    background-color: #000;
+    background-color: var(--var-cor-texto-principal);
     border-radius: 50%;
 }
 
 .timeline-conteudo {
     padding-left: 20px;
 }
+.timeline-conteudo h3{
+    color: var(--var-cor-texto-principal);
+}
 
 .ano {
     font-size: 14px;
-    color: gray;
+    color: var(--var-cor-texto-secundario);
 }
 
 .timeline-conteudo h3 {

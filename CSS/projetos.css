@@ -1,0 +1,31 @@
+.projetos {
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.card-projeto {
+    background-color: var(--var-cor-superficie-cards);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--var-cor-borda-divisor);
+    transition: transform 0.3s ease;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+    border-color: red;
+}
+
+.texto-projeto h3 {
+    color: var(--var-cor-texto-principal);
+    margin-bottom: 15px;
+}
