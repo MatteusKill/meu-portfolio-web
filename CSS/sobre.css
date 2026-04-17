@@ -29,6 +29,9 @@ main{
     line-height: 1.4;
     font-size: 18px;
 }
+.descricao span{
+    color: var(--var-cor-texto-principal);
+}
 #eu{
     width: 250px;
     border-radius: 50%;

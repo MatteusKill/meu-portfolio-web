@@ -1,0 +1,56 @@
+.formacao {
+    padding: 60px 10%;
+}
+
+.titulo-secao {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-ponto {
+    position: absolute;
+    left: -2px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.timeline-conteudo {
+    padding-left: 20px;
+}
+
+.ano {
+    font-size: 14px;
+    color: gray;
+}
+
+.timeline-conteudo h3 {
+    margin: 5px 0;
+}
+
+.timeline-conteudo p {
+    font-size: 16px;
+    line-height: 1.6;
+}
