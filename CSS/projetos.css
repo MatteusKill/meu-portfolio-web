@@ -29,3 +29,9 @@
     color: var(--var-cor-texto-principal);
     margin-bottom: 15px;
 }
+
+@media (max-width: 768px) {
+    .projetos {
+        padding: 40px 5%;
+    }
+}

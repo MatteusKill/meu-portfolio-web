@@ -35,3 +35,27 @@ main{
     width: 250px;
     border-radius: 50%;
 }
+@media (max-width: 768px) {
+    .titulo-principal {
+        margin-left: 0;
+        text-align: center;
+        font-size: 26px;
+    }
+    .container-descricao {
+        flex-direction: column-reverse;
+        padding: 0 5%;
+        gap: 30px;
+    }
+    .texto {
+        border-left: none;
+        border-top: 2px solid var(--var-cor-borda-divisor);
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #eu {
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+}

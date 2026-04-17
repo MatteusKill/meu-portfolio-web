@@ -49,3 +49,8 @@
     color: var(--var-cor-texto-principal);
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .habilidades {
+        padding: 40px 5%;
+    }
+}

@@ -26,3 +26,13 @@ footer {
     font-size: 14px;
     color: var(--var-cor-texto-secundario);
 }
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 5% 20px;
+    }
+    .links-contato {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+}
